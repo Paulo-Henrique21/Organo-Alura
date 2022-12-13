@@ -10,7 +10,7 @@ const Rodape = () => {
                     <img src='./imagens/ig.png'/>
                 </div>
                 <img src='./imagens/logo.png'/>
-                <h3>Desenvolvido por Alura</h3>
+                <h3>Desenvolvido por Paulo</h3>
             </div> 
         </footer>
     )
