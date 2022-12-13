@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Banner from './components/Banner/Banner';
 import Formulario from './components/Formulario';
+import Rodape from './components/Rodape';
 import Time from './components/Time';
 
 function App() {
@@ -66,6 +67,7 @@ function App() {
       colaboradores={colaboradores.filter(colaborador => colaborador.time === time.nome)} 
       />)}
        {/* chamremos o método filter, ou seja vamos filtras os colaboradores, dentro do filter temos uma aerofunction, dentro da aerofunction recebo colaborador como parametro e um resultado desse boleado vai me dizer se vou levar ou não esse colaborador, e vou filtrar baseado em que? eu quero que o time desse colaborador seja igual ao time.nome*/}
+       <Rodape/>
     </div>
   );
 }
